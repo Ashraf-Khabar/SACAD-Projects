@@ -85,4 +85,3 @@ def evaluate_model(model,x_test,y_test,X_train,Y_train,loss_list):
     plt.ylim([0, 1])
     plt.ylabel('True Positive Rate')
     plt.xlabel('False Positive Rate')
-    plt.show()
